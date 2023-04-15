@@ -1,0 +1,84 @@
+{
+    "experiencia":[{
+      "rubro": "Almacén de alimentos",
+      "tareas": "Caja, redes sociales, atención al cliente y control de stock.",
+      "periodo": "Desde Abril 2022 hasta Octubre 2022."
+    }],
+    "educacion":[{
+      "school": "Mindhub",
+      "img": "",
+      "career": "Frontend Web Deveopment",
+      "start": "01-2023",
+      "end": "03-2023",
+      "descripcion": "Bootcamp de 180 hs de capacitación. HTML5 - CSS3 - JavaScript - Vue"
+    },
+    {
+      "school": "Facultad de Ingeniería",
+      "img": "",
+      "career": "Ingeniería en Mecatrónica",
+      "start": "2014",
+      "end": "2021",
+      "descripcion": "Nivel universitario incompleto. 4 (cuatro) años de 5 y 1/2 (cinco y medio) años completos."
+    }],
+    "proyectos":[{
+      "image": "../../assets/data/images/amazing.png",
+      "name": "Amazing Events",
+      "year": 2023,
+      "descripcion": "Se construyó con HTML5, CSS3 y JavaScript.",
+      "link": "https://amazingevents.netlify.app/"
+    },
+    {
+      "image": "../../assets/data/images/mighty.png",
+      "name": "Migthy Ducks Hockey League",
+      "year": 2023,
+      "descripcion": "Se construyó con HTML5 y CSS3.",
+      "link": "https://migthydockshockeyleague.netlify.app/"
+    },
+    {
+      "image": "../../assets/data/images/commerce.png",
+      "name": "E-commerce",
+      "year": 2022,
+      "descripcion": "E-commerce para almacén de alimentos en el que trabajé. Se construyó con HTML5, CSS3 y JavaScript.",
+      "link": "https://lahuertamendoza.netlify.app/"
+    },
+    {
+      "image": "../../assets/data/images/rickandmorty.png",
+      "name": "Rick and Morty",
+      "year": 2022,
+      "descripcion": "Aplicación usando React.",
+      "link": "https://rickandmortyhome.netlify.app/"
+    }],
+    "skills":[{
+      "skill": "HTML5"
+    },
+    {
+      "skill": "CSS3"
+    },
+    {
+      "skill": "JavaScript"
+    },
+    {
+      "skill": "Python"
+    },
+    {
+      "skill": "C++"
+    },
+    {
+      "skill": "C"
+    },
+    {
+      "skill": "VueJS"
+    },
+    {
+      "skill": "Angular"
+    },
+    {
+      "skill": "Scrum"
+    },
+    {
+      "skill": "Git & Github"
+    },
+    {
+      "skill": "SQL"
+    }]
+    }

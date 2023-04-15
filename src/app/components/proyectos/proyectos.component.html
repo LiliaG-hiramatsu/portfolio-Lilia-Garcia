@@ -1,0 +1,16 @@
+<section class="secciones">
+    <h1>PROJECTS</h1>
+    <div class="header-bar"></div>
+    <div class="gallery">
+        <div class="cards" *ngFor="let project of projectList">
+            <img class="project-image card-img-top"
+                [src]="project.image" 
+                alt="imagen de la web">
+            <div class="card-body">
+                <h5 class="card-title">{{ project.name }}</h5>
+                <p>{{ project.year }}</p>
+                <a [href]="project.link" target="_blank" class="site">VIEW SITE</a>
+            </div>
+        </div>
+    </div>
+</section>
