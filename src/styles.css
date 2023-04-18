@@ -29,7 +29,7 @@
 .portada a {
     text-decoration: none;
     color: white;
-    font-size: 14px;
+    font-size: 0.9em;
     border: 1px solid white;
     padding: 5px 8px;
     transition: all 0.5s;
@@ -37,7 +37,7 @@
 
 .portada a i {
     margin-left: 5px;
-    font-size: 14px;
+    font-size: 0.9em;
 }
 
 .portada a:hover {
@@ -128,7 +128,7 @@
 }
 
 .item-list {
-    font-size: 12px;
+    font-size: 1em;
 }
 
 .secciones{
@@ -136,8 +136,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: 14px;
-    margin: 1em;
+    font-size: 1em;
+    margin: 10px;
     padding: 20px 0;
     line-height: 1.5;
     color: #555;
@@ -145,7 +145,7 @@
 }
 
 .header-bar {
-    width: 5em;
+    width: 5rem;
     height: 4px;
     background-color: #555;
 }
@@ -154,7 +154,6 @@
     display: grid;
     grid-template-columns: 100%;
     justify-content: center;
-    margin: 5px;
     background-color: rgb(248, 248, 248);
 }
 
@@ -164,13 +163,13 @@
     flex-direction: column;
     justify-content: space-evenly;
     padding: 10px;
-    margin: 10px;
 }
 
 .project-image {
-    margin-bottom: 1em;
+    margin-bottom: 10px;
     width: 100%;
-    object-fit: cover;
+    height: auto;
+    object-fit: fill;
     box-shadow: 5px 7px 21px -7px rgba(0,0,0,0.71);
     -webkit-box-shadow: 5px 7px 21px -7px rgba(0,0,0,0.71);
     -moz-box-shadow: 5px 7px 21px -7px rgba(0,0,0,0.71);
@@ -182,7 +181,7 @@
     text-decoration: none;
     color: #333;
     background-color: white;
-    font-size: 11px;
+    font-size: 0.7em;
     box-shadow: 3px 3px 20px -8px rgba(0,0,0,0.71);
     -webkit-box-shadow: 3px 3px 20px -8px rgba(0,0,0,0.71);
     -moz-box-shadow: 3px 3px 20px -8px rgba(0,0,0,0.71);
@@ -205,7 +204,7 @@
 .skills li {
     align-items: center;
     list-style: none;
-    font-size: 12px;
+    font-size: 0.9em;
     font-weight: 600;
     border: 1px solid #777;
     border-radius: 4px;
@@ -234,29 +233,43 @@
 
 .pie-pagina .grupo-1{
     margin: 20px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    -ms-grid-column-align: center;
-    gap: 10px;
-    padding: 45px 0px;
+    padding: 45px 0px 10px;
 }
 
-.pie-pagina .grupo-1 .box h2{
+.pie-pagina .grupo-1 h2{
     color: rgb(0, 0, 0);
     margin-bottom: 25px;
-    font-size: 20px;
+    font-size: 1.5em;
 }
 
-.pie-pagina .grupo-1 .box p{
+.pie-pagina .grupo-1 p{
     color: #000000;
     margin-bottom: 10px;
 }
 
-.pie-pagina .grupo-1 .red-social a{
+.pie-pagina .grupo-1 ul {
+    padding-left: 0;
+}
+
+.pie-pagina .grupo-1 li {
+    list-style: none;
+}
+
+.pie-pagina .grupo-1 li a {
+    text-decoration: none;
+    color: #000000;
+    font-weight: 500;
+}
+
+.pie-pagina .grupo-1 li a:hover {
+    color: palevioletred;
+}
+
+.pie-pagina .grupo-1 .red-social a {
     text-decoration: none;
     width: 30px;
     height: 30px;
-    margin: 0 10px;
+    margin-right: 10px;
     border-radius: 5%;
     line-height: 30px;
     color: #fff;
@@ -277,7 +290,7 @@
 }
 
 .pie-pagina .grupo-2 small{
-    font-size: 12px;
+    font-size: 0.7em;
 }
 
 @media screen and (min-width: 375px) {
@@ -303,44 +316,35 @@
 }
 
 @media screen and (min-width: 768px) {
-    .portada h1 {
-        font-size: 2.5em;
-    }
-
-    .portada h2 {
-        font-size: 2em;
-    }
-
     .portada a {
-        font-size: 18px;
         padding: 8px 12px;
-    }
-
-    .portada a i {
-        font-size: 16px;
     }
 
     .secciones {
         margin: 2em 4em;
-        font-size: 16px;
     }
 
     .gallery {
         grid-template-columns: 50% 50%;
+        margin: 5px 20px;
     }
 
     .site {
         padding: 5px 10px;
     }
 
-    .skills li {
-        font-size: 16px;
+    .pie-pagina .grupo-1{
+        display: grid;
+        grid-template-columns: auto auto;
+        justify-content: space-evenly;
+        padding: 35px 0px;
     }
 
-    .pie-pagina .grupo-1{
-        width: 90%;
-        grid-template-columns: repeat(1, 1fr);
-        padding: 35px 0px;
+    .pie-pagina .grupo-1 .red-social {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        padding-top: 45px;
     }
 }
 
