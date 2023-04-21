@@ -2,14 +2,17 @@
     <h1 id="proyectos">PROJECTS</h1>
     <div class="header-bar"></div>
     <div class="gallery">
-        <div class="cards" *ngFor="let project of projectList">
-            <img class="project-image card-img-top"
-                [src]="project.image" 
-                alt="imagen de la web">
-            <div class="card-body">
+        <div class="card" *ngFor="let project of projectList">
+            <img [src]="project.image" 
+                class="card-img-top"
+                alt="web page image">
+            <div class="card-body" style="color: #333">
                 <h5 class="card-title">{{ project.name }}</h5>
-                <p>{{ project.year }}</p>
-                <a [href]="project.link" target="_blank" class="site">VIEW SITE</a>
+                <p class="card-text">{{ project.year }}</p>
+                <a [href]="project.link" target="_blank" class="site">SITE</a>
+            </div>
+            <div class="card-footer" style="color: #666">
+                {{ project.description }}
             </div>
         </div>
     </div>

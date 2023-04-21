@@ -24,28 +24,28 @@
       "image": "../../assets/data/images/amazing.png",
       "name": "Amazing Events",
       "year": 2023,
-      "descripcion": "Se construyó con HTML5, CSS3 y JavaScript.",
+      "description": "Proyecto contruído con HTML5, CSS3 y JavaScript.",
       "link": "https://amazingevents.netlify.app/"
     },
     {
       "image": "../../assets/data/images/mighty.png",
       "name": "Migthy Ducks Hockey League",
       "year": 2023,
-      "descripcion": "Se construyó con HTML5 y CSS3.",
+      "description": "Proyecto contruído con HTML5 y CSS3.",
       "link": "https://migthydockshockeyleague.netlify.app/"
     },
     {
       "image": "../../assets/data/images/commerce.png",
       "name": "E-commerce",
       "year": 2022,
-      "descripcion": "E-commerce para almacén de alimentos en el que trabajé. Se construyó con HTML5, CSS3 y JavaScript.",
+      "description": "E-commerce contruído con HTML5, CSS3 y JavaScript.",
       "link": "https://lahuertamendoza.netlify.app/"
     },
     {
       "image": "../../assets/data/images/rickandmorty.png",
       "name": "Rick and Morty",
       "year": 2022,
-      "descripcion": "Aplicación usando React.",
+      "description": "Aplicación contruída con React.",
       "link": "https://rickandmortyhome.netlify.app/"
     }],
     "skills":[{
