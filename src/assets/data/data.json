@@ -1,84 +1,97 @@
 {
-    "experiencia":[{
-      "rubro": "Almacén de alimentos",
-      "tareas": "Caja, redes sociales, atención al cliente y control de stock.",
-      "periodo": "Desde Abril 2022 hasta Octubre 2022."
-    }],
-    "educacion":[{
-      "school": "Mindhub",
-      "img": "",
-      "career": "Frontend Web Deveopment",
-      "start": "01-2023",
-      "end": "03-2023",
-      "descripcion": "Bootcamp de 180 hs de capacitación. HTML5 - CSS3 - JavaScript - Vue"
+  "proyectos":[{
+    "image": "../../assets/data/images/amazing.png",
+    "name": "Amazing Events",
+    "year": 2023,
+    "description": "Proyecto contruído con HTML5, CSS3 y JavaScript.",
+    "link": "https://amazingevents.netlify.app/"
+  },
+  {
+    "image": "../../assets/data/images/yogiho.png",
+    "name": "Yo-Gi-Ho cards",
+    "year": 2023,
+    "description": "Proyecto contruído con Angular.",
+    "link": "https://yu-gi-ho-cards.netlify.app"
+  },
+  {
+    "image": "../../assets/data/images/commerce.png",
+    "name": "E-commerce",
+    "year": 2022,
+    "description": "E-commerce contruído con HTML5, CSS3 y JavaScript.",
+    "link": "https://lahuertamendoza.netlify.app/"
+  },
+  {
+    "image": "../../assets/data/images/rickandmorty.png",
+    "name": "Rick and Morty",
+    "year": 2022,
+    "description": "Aplicación contruída con React.",
+    "link": "https://rickandmortyhome.netlify.app/"
+  }],
+  "skills":[{
+    "skill": "HTML5"
+  },
+  {
+    "skill": "CSS3"
+  },
+  {
+    "skill": "JavaScript"
+  },
+  {
+    "skill": "Python"
+  },
+  {
+    "skill": "C++"
+  },
+  {
+    "skill": "C"
+  },
+  {
+    "skill": "VueJS"
+  },
+  {
+    "skill": "Angular"
+  },
+  {
+    "skill": "Scrum"
+  },
+  {
+    "skill": "Git & Github"
+  },
+  {
+    "skill": "SQL"
+  }],
+  "educacion":[
+  {
+    "career": "Mechatronics Engineering",
+    "school": "Facultad de Ingeniería - Universidad Nacional de Cuyo",
+    "start": "2014",
+    "end": "2021",
+    "description": "Nivel universitario incompleto. 29 de 48 espacios curriculares aprobados, promedio 7.69."
+  }],
+  "cursos":[{
+    "title": "Frontend Web Development",
+    "school": "Mindhub",
+    "start": "01-2023",
+    "end": "03-2023",
+    "description": "Bootcamp de 180 hs de capacitación. HTML5 - CSS3 - Responsive design - JavaScript - Vue - Git & Github - Scrum"
     },
     {
-      "school": "Facultad de Ingeniería",
-      "img": "",
-      "career": "Ingeniería en Mecatrónica",
-      "start": "2014",
-      "end": "2021",
-      "descripcion": "Nivel universitario incompleto. 4 (cuatro) años de 5 y 1/2 (cinco y medio) años completos."
-    }],
-    "proyectos":[{
-      "image": "../../assets/data/images/amazing.png",
-      "name": "Amazing Events",
-      "year": 2023,
-      "description": "Proyecto contruído con HTML5, CSS3 y JavaScript.",
-      "link": "https://amazingevents.netlify.app/"
-    },
-    {
-      "image": "../../assets/data/images/mighty.png",
-      "name": "Migthy Ducks Hockey League",
-      "year": 2023,
-      "description": "Proyecto contruído con HTML5 y CSS3.",
-      "link": "https://migthydockshockeyleague.netlify.app/"
-    },
-    {
-      "image": "../../assets/data/images/commerce.png",
-      "name": "E-commerce",
-      "year": 2022,
-      "description": "E-commerce contruído con HTML5, CSS3 y JavaScript.",
-      "link": "https://lahuertamendoza.netlify.app/"
-    },
-    {
-      "image": "../../assets/data/images/rickandmorty.png",
-      "name": "Rick and Morty",
-      "year": 2022,
-      "description": "Aplicación contruída con React.",
-      "link": "https://rickandmortyhome.netlify.app/"
-    }],
-    "skills":[{
-      "skill": "HTML5"
-    },
-    {
-      "skill": "CSS3"
-    },
-    {
-      "skill": "JavaScript"
-    },
-    {
-      "skill": "Python"
-    },
-    {
-      "skill": "C++"
-    },
-    {
-      "skill": "C"
-    },
-    {
-      "skill": "VueJS"
-    },
-    {
-      "skill": "Angular"
-    },
-    {
-      "skill": "Scrum"
-    },
-    {
-      "skill": "Git & Github"
-    },
-    {
-      "skill": "SQL"
-    }]
-    }
+    "title": "Full stack development with Python",
+    "school": "Codo a codo - Agencia de aprendizaje a lo largo de la vida",
+    "start": "08-2022",
+    "end": "12-2022",
+    "description": "Curso en el que aprendi HTML5 - CSS3 - responsive design - JavaScript - Python - Django - Git & Github"
+  },
+  {
+    "title": "Full stack development with Java",
+    "school": "Argentina programa",
+    "start": "10-2021",
+    "end": "07-2022",
+    "description": "Curso en el que aprendi HTML5 - CSS3 - responsive design - JavaScript - Java - Typescript - Angular - Spring - Springboot - Git & Github - mySQL - Scrum"
+  }],
+  "experiencia":[{
+    "rubro": "Store",
+    "tareas": "Caja, redes sociales, atención al cliente, control de stock, recepción de proveedores.",
+    "periodo": "Desde Abril 2022 hasta Octubre 2022."
+  }]
+}

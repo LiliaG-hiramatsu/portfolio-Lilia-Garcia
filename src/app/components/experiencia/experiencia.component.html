@@ -1,1 +1,9 @@
-
+<div class="secciones">
+    <h1 id="experiencia">EXPERIENCE</h1>
+    <div class="header-bar"></div>
+    <div class="experiencia" *ngFor="let exp of experienciaList">
+        <h3>{{ exp.rubro }}</h3>
+        <p>{{ exp.tareas }}</p>
+        <p>{{ exp.periodo }}</p>
+    </div>
+</div>
