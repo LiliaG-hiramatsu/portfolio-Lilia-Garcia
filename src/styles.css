@@ -15,7 +15,7 @@
 
 .portada h1 {
     color: white;
-    font-size: 2em;
+    font-size: 2.3em;
     font-weight: 400;
 }
 
@@ -29,7 +29,7 @@
 .portada a {
     text-decoration: none;
     color: white;
-    font-size: 0.9em;
+    font-size: 1em;
     border: 1px solid white;
     padding: 5px 8px;
     transition: all 0.5s;
@@ -37,7 +37,7 @@
 
 .portada a i {
     margin-left: 5px;
-    font-size: 0.9em;
+    font-size: 1em;
 }
 
 .portada a:hover {
@@ -218,9 +218,11 @@
 .experiencia {
     width: 100%;
     padding: 8px;
+    margin-bottom: 40px;
 }
 
 .pie-pagina {
+    margin-top: 80px;
     width: 100%;
     background-color: rgb(249, 243, 243);
 }
@@ -234,6 +236,7 @@
 
 .contenido {
     text-align: center;
+    margin: 0 5px;
 }
 
 .contenido h3 {
@@ -269,7 +272,7 @@
 }
 
 .pie-pagina .grupo-2 small{
-    font-size: 0.7em;
+    font-size: 0.8em;
 }
 
 @media screen and (min-width: 425px) {

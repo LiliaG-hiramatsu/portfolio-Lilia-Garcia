@@ -8,7 +8,7 @@
   },
   {
     "image": "../../assets/data/images/yogiho.png",
-    "name": "Yo-Gi-Ho cards",
+    "name": "Yu-Gi-Oh! cards",
     "year": 2023,
     "description": "Proyecto contruído con Angular.",
     "link": "https://yu-gi-ho-cards.netlify.app"
@@ -58,7 +58,13 @@
     "skill": "Git & Github"
   },
   {
-    "skill": "SQL"
+    "skill": "MySQL"
+  },
+  {
+    "skill": "Bootstrap"
+  },
+  {
+    "skill": "SASS"
   }],
   "educacion":[
   {
