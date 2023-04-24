@@ -7,9 +7,10 @@
 .portada {
     background-image: url(./assets/data/images/montana-oscura.jpg);
     background-size: cover;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     line-height: 3;
-    padding: 40vw 20vw;
+    padding: 40vh 20vw;
     text-align: center;
 }
 
@@ -285,32 +286,12 @@
 }
 
 @media screen and (min-width: 425px) {
-    .portada {
-        padding: 56vw 20vw;
-    }
-
     .skills {
         margin: 30px;
     }
 }
 
-@media screen and (min-width: 640px) and (min-height: 960px) {
-    .portada {
-        padding: 65vw 20vw;
-    }
-}
-
-@media screen and (min-width: 720px) and (min-height: 1280px) {
-    .portada {
-        padding: 80vw 20vw;
-    }
-}
-
 @media screen and (min-width: 768px) {
-    .portada {
-        padding: 35vw 20vw;
-    }
-
     .portada a {
         padding: 8px 12px;
     }
@@ -343,10 +324,6 @@
 }
 
 @media screen and (min-width: 1024px) {
-    .portada {
-        padding: 20vw;
-    }
-
     .gallery {
         grid-template-columns: auto auto;
         gap: 50px;
@@ -391,11 +368,6 @@
 }
 
 @media screen and (min-width: 2560px) {
-    .portada {
-        line-height: 4;
-        padding: 27vw 20vw;
-    }
-
     .portada h1 {
         font-size: 5em;
     }
