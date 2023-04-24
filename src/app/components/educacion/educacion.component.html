@@ -15,4 +15,11 @@
         <p>{{ curso.start }} - {{ curso.end }}</p>
         <p>{{ curso.description }}</p>
     </div>
+    <h2>LANGUAGES</h2>
+    <div class="header-bar"></div>
+    <div class="education" *ngFor="let language of languagesList">
+        <h3>{{ language.title }}</h3>
+        <h6>{{ language.school }}</h6>
+        <p>{{ language.date }}</p>
+    </div>
 </div>

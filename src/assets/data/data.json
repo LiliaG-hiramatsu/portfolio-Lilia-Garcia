@@ -65,6 +65,12 @@
   },
   {
     "skill": "SASS"
+  },
+  {
+    "skill": "Linux"
+  },
+  {
+    "skill": "Windows"
   }],
   "educacion":[
   {
@@ -94,6 +100,23 @@
     "start": "10-2021",
     "end": "07-2022",
     "description": "Curso en el que aprendi HTML5 - CSS3 - responsive design - JavaScript - Java - Typescript - Angular - Spring - Springboot - Git & Github - mySQL - Scrum"
+  },
+  {
+    "title": "Introduction to GNU/Linux",
+    "school": "Facultad de Ingeniería - Universidad Nacional de Cuyo",
+    "start": "09-2018",
+    "end": "09-2018",
+    "description": "Conceptos básicos del sistema operativo Linux, instalación, uso de la terminal y comandos."
+  }],
+  "languages": [{
+    "title": "English B1+",
+    "school": "Facultad de Ingeniería - Universidad Nacional de Cuyo",
+    "date": "12-2017"
+  },
+  {
+    "title": "Japanese A1",
+    "school": "Japanese school of Asociación Nikkei Mendoza",
+    "date": "12-2022"
   }],
   "experiencia":[{
     "rubro": "Store",

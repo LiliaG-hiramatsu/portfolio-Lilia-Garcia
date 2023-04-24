@@ -7,7 +7,6 @@
 .portada {
     background-image: url(./assets/data/images/montana-oscura.jpg);
     background-size: cover;
-    width: 100vw;
     height: 100vh;
     line-height: 3;
     padding: 40vh 20vw;
@@ -192,7 +191,7 @@
 .skills {
     display: flex;
     flex-wrap: wrap;
-    justify-content: flex-start;
+    justify-content: center;
 }
 
 .skills li {

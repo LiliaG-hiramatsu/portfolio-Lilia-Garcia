@@ -10,6 +10,7 @@ export class EducacionComponent implements OnInit {
 
   educacionList:any;
   cursosList:any;
+  languagesList:any;
 
   constructor(private datosPortfolio: PortfolioService) { }
 
@@ -20,6 +21,10 @@ export class EducacionComponent implements OnInit {
 
     this.datosPortfolio.obtenerDatos().subscribe(data => {
       this.cursosList = data.cursos;
+    });
+
+    this.datosPortfolio.obtenerDatos().subscribe(data => {
+      this.languagesList = data.languages;
     });
   }
 }
