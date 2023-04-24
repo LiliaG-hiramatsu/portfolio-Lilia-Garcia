@@ -6,13 +6,10 @@
             <img [src]="project.image" 
                 class="card-img-top"
                 alt="web page image">
-            <div class="card-body" style="color: #333">
+            <div class="card-body card-project">
                 <h5 class="card-title">{{ project.name }}</h5>
                 <p class="card-text">{{ project.year }}</p>
                 <a [href]="project.link" target="_blank" class="site">SITE</a>
-            </div>
-            <div class="card-footer" style="color: #666">
-                {{ project.description }}
             </div>
         </div>
     </div>

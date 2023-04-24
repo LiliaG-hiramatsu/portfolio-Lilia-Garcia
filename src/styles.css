@@ -8,8 +8,8 @@
     background-image: url(./assets/data/images/montana-oscura.jpg);
     background-size: cover;
     height: 100%;
-    line-height: 2;
-    padding: 20vw;
+    line-height: 3;
+    padding: 70vw 20vw;
     text-align: center;
 }
 
@@ -32,7 +32,7 @@
     font-size: 1em;
     border: 1px solid white;
     padding: 5px 8px;
-    transition: all 0.5s;
+    transition: all 0.8s;
 }
 
 .portada a i {
@@ -146,7 +146,9 @@
     padding: 20px 40px;
     line-height: 1.5;
     color: white;
-    background-color: #000000;
+    background-image: url(./assets/data/images/escritorio.jpg);
+    background-size: cover;
+    height: 100%;
 }
 
 .header-bar {
@@ -164,12 +166,19 @@
     margin-bottom: 40px;
 }
 
+.card-project {
+    background-image: url(./assets/data/images/fondo-azul.jpg);
+    background-size: cover;
+    height: 100%;
+}
+
 .site {
     padding: 5px 10px;
     border-radius: 4px;
     text-decoration: none;
-    color: white;
-    background-color: rgb(0, 0, 0);
+    color: #666;
+    font-weight: bold;
+    background-color: white;
     font-size: 0.7em;
 }
 
@@ -209,7 +218,7 @@
 .education {
     width: 100%;
     text-align: center;
-    margin: 5px 0;
+    margin: 5px 0 20px 0;
     padding: 8px;
     border: 1px solid white;
     border-radius: 5px;
@@ -276,12 +285,20 @@
 }
 
 @media screen and (min-width: 425px) {
+    .portada {
+        padding: 56vw 20vw;
+    }
+
     .skills {
         margin: 30px;
     }
 }
 
 @media screen and (min-width: 768px) {
+    .portada {
+        padding: 35vw 20vw;
+    }
+
     .portada a {
         padding: 8px 12px;
     }
@@ -303,7 +320,7 @@
 
     .education {
         width: 80%;
-        margin: 10px 0;
+        margin: 10px 0 30px 0;
         padding: 10px 30px;
     }
 
@@ -314,13 +331,18 @@
 }
 
 @media screen and (min-width: 1024px) {
+    .portada {
+        padding: 20vw;
+    }
+
     .gallery {
-        grid-template-columns: 30% 30%;
+        grid-template-columns: auto auto;
         gap: 50px;
     }
 
     .site {
-        padding: 10px 20px;
+        padding: 8px 15px;
+        font-size: 0.8em;
     }
 
     .skills {
@@ -357,6 +379,24 @@
 }
 
 @media screen and (min-width: 2560px) {
+    .portada {
+        line-height: 4;
+        padding: 27vw 20vw;
+    }
+
+    .portada h1 {
+        font-size: 5em;
+    }
+
+    .portada h2 {
+        font-size: 3em;
+    }
+
+    .portada a {
+        font-size: 2em;
+        padding: 10px 20px;
+    }
+
     .secciones {
         margin: 2em 14em;
     }
