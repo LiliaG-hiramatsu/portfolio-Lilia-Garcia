@@ -9,7 +9,7 @@
     background-size: cover;
     height: 100%;
     line-height: 3;
-    padding: 90vw 20vw;
+    padding: 40vw 20vw;
     text-align: center;
 }
 
@@ -291,6 +291,18 @@
 
     .skills {
         margin: 30px;
+    }
+}
+
+@media screen and (min-width: 640px) and (min-height: 960px) {
+    .portada {
+        padding: 65vw 20vw;
+    }
+}
+
+@media screen and (min-width: 720px) and (min-height: 1280px) {
+    .portada {
+        padding: 80vw 20vw;
     }
 }
 
