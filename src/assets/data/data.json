@@ -3,28 +3,28 @@
     "image": "../../assets/data/images/amazing.png",
     "name": "Amazing Events",
     "year": 2023,
-    "description": "Proyecto contruído con HTML5, CSS3 y JavaScript.",
+    "description": "HTML5 - CSS3 - Bootstrap - JavaScript",
     "link": "https://amazingevents.netlify.app/"
   },
   {
     "image": "../../assets/data/images/yogiho.png",
     "name": "Yu-Gi-Oh! cards",
     "year": 2023,
-    "description": "Proyecto contruído con Angular.",
+    "description": "Angular",
     "link": "https://yu-gi-ho-cards.netlify.app"
   },
   {
     "image": "../../assets/data/images/commerce.png",
     "name": "E-commerce",
     "year": 2022,
-    "description": "E-commerce contruído con HTML5, CSS3 y JavaScript.",
+    "description": "HTML5 - CSS3 - Bootstrap - JavaScript",
     "link": "https://lahuertamendoza.netlify.app/"
   },
   {
     "image": "../../assets/data/images/rickandmorty.png",
     "name": "Rick and Morty",
     "year": 2022,
-    "description": "Aplicación contruída con React.",
+    "description": "React",
     "link": "https://rickandmortyhome.netlify.app/"
   }],
   "skills":[{
@@ -50,6 +50,9 @@
   },
   {
     "skill": "Angular"
+  },
+  {
+    "skill": "React"
   },
   {
     "skill": "Scrum"
@@ -78,35 +81,35 @@
     "school": "Facultad de Ingeniería - Universidad Nacional de Cuyo",
     "start": "2014",
     "end": "2021",
-    "description": "Nivel universitario incompleto. 29 de 48 espacios curriculares aprobados, promedio 7.69."
+    "description": "Incomplete university level. 29 out of 48 curricular spaces approved, average 7.69."
   }],
   "cursos":[{
     "title": "Frontend Web Development",
     "school": "Mindhub",
     "start": "01-2023",
     "end": "03-2023",
-    "description": "Bootcamp de 180 hs de capacitación. HTML5 - CSS3 - Responsive design - JavaScript - Vue - Git & Github - Scrum"
+    "description": "Bootcamp of 180 hours of training. HTML5 - CSS3 - Responsive design - JavaScript - Vue - Git & Github - Scrum"
     },
     {
     "title": "Full stack development with Python",
     "school": "Codo a codo - Agencia de aprendizaje a lo largo de la vida",
     "start": "08-2022",
     "end": "12-2022",
-    "description": "Curso en el que aprendi HTML5 - CSS3 - responsive design - JavaScript - Python - Django - Git & Github"
+    "description": "Course I learned HTML5 - CSS3 - responsive design - JavaScript - Python - Django - Git & Github"
   },
   {
     "title": "Full stack development with Java",
     "school": "Argentina programa",
     "start": "10-2021",
     "end": "07-2022",
-    "description": "Curso en el que aprendi HTML5 - CSS3 - responsive design - JavaScript - Java - Typescript - Angular - Spring - Springboot - Git & Github - mySQL - Scrum"
+    "description": "Course I learned HTML5 - CSS3 - responsive design - JavaScript - Java - Typescript - Angular - Spring - Springboot - Git & Github - mySQL - Scrum"
   },
   {
     "title": "Introduction to GNU/Linux",
     "school": "Facultad de Ingeniería - Universidad Nacional de Cuyo",
     "start": "09-2018",
     "end": "09-2018",
-    "description": "Conceptos básicos del sistema operativo Linux, instalación, uso de la terminal y comandos."
+    "description": "Linux operating system basics, installation, use of the terminal and commands."
   }],
   "languages": [{
     "title": "English B1+",
@@ -120,7 +123,7 @@
   }],
   "experiencia":[{
     "rubro": "Store",
-    "tareas": "Caja, redes sociales, atención al cliente, control de stock, recepción de proveedores.",
-    "periodo": "Desde Abril 2022 hasta Octubre 2022."
+    "tareas": "Cash register, social networks, customer service, stock control, supplier reception.",
+    "periodo": "April 2022 - Octuber 2022"
   }]
 }
