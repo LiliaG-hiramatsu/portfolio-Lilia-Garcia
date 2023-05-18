@@ -239,13 +239,12 @@
 .pie-pagina .grupo-1 {
     display: flex;
     justify-content: space-evenly;
-    margin: 0 10px;
-    padding: 20px 0;
+    padding: 80px 0;
 }
 
 .contenido {
-    text-align: center;
-    margin: 0 5px;
+    text-align: left;
+    line-height: 1.5;
 }
 
 .contenido h3 {
@@ -256,7 +255,7 @@
 }
 
 .contenido ul {
-    padding-left: 0;
+    padding-left: 10px;
 }
 
 .contenido li {
