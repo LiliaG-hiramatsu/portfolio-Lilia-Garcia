@@ -4,7 +4,7 @@
     <div class="education" *ngFor="let educacion of educacionList">
         <h3>{{ educacion.career }}</h3>
         <h6>{{ educacion.school }}</h6>
-        <p>{{ educacion.start }} - {{ educacion.end }}</p>
+        <p>{{ educacion.start }}</p>
         <p>{{ educacion.description }}</p>
     </div>
     <h2>COURSES</h2>
@@ -12,14 +12,13 @@
     <div class="education" *ngFor="let curso of cursosList">
         <h3>{{ curso.title }}</h3>
         <h6>{{ curso.school }}</h6>
-        <p>{{ curso.start }} - {{ curso.end }}</p>
+        <p>{{ curso.start }}</p>
         <p>{{ curso.description }}</p>
     </div>
     <h2>LANGUAGES</h2>
     <div class="header-bar"></div>
     <div class="education" *ngFor="let language of languagesList">
         <h3>{{ language.title }}</h3>
-        <h6>{{ language.school }}</h6>
         <p>{{ language.date }}</p>
     </div>
 </div>

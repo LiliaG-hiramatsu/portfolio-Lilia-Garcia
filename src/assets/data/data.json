@@ -80,53 +80,47 @@
       "career": "Software Development",
       "school": "Instituto Tecnológico Universitario - Universidad Nacional de Cuyo",
       "start": "2023",
-      "end": "2026",
       "description": "University technician in progress."
     },
     {
       "career": "Mechatronics Engineering",
       "school": "Facultad de Ingeniería - Universidad Nacional de Cuyo",
       "start": "2014",
-      "end": "2021",
       "description": "Incomplete university level. 29 out of 48 curricular spaces approved, average 7.69."
     }],
   "cursos":[{
       "title": "Frontend Web Development",
       "school": "Mindhub",
       "start": "01-2023",
-      "end": "03-2023",
       "description": "Bootcamp of 180 hours of training. HTML5 - CSS3 - Responsive design - JavaScript - Vue - Git & Github - Scrum"
     },
     {
       "title": "Full stack development with Python",
       "school": "Codo a codo - Agencia de aprendizaje a lo largo de la vida",
       "start": "08-2022",
-      "end": "12-2022",
       "description": "Course I learned HTML5 - CSS3 - responsive design - JavaScript - Python - Django - Git & Github"
     },
     {
       "title": "Full stack development with Java",
       "school": "Argentina programa",
       "start": "10-2021",
-      "end": "07-2022",
       "description": "Course I learned HTML5 - CSS3 - responsive design - JavaScript - Java - Typescript - Angular - Spring - Springboot - Git & Github - mySQL - Scrum"
     },
     {
       "title": "Introduction to GNU/Linux",
       "school": "Facultad de Ingeniería - Universidad Nacional de Cuyo",
       "start": "09-2018",
-      "end": "09-2018",
       "description": "Linux operating system basics, installation, use of the terminal and commands."
     }],
   "languages": [{
-      "title": "English B1+",
-      "school": "Facultad de Ingeniería - Universidad Nacional de Cuyo",
-      "date": "12-2017"
+      "title": "English B2",
+      "date": "2023 (in progress)"
+      
     },
     {
       "title": "Japanese A1",
       "school": "Japanese school of Asociación Nikkei Mendoza",
-      "date": "12-2022"
+      "date": "2022"
     }],
     "experiencia":[{
       "rubro": "Store",
