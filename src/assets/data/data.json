@@ -40,13 +40,7 @@
       "skill": "Python"
     },
     {
-      "skill": "C++"
-    },
-    {
-      "skill": "C"
-    },
-    {
-      "skill": "VueJS"
+      "skill": "C/C++"
     },
     {
       "skill": "Angular"
@@ -55,19 +49,13 @@
       "skill": "React"
     },
     {
-      "skill": "Scrum"
-    },
-    {
-      "skill": "Git & Github"
+      "skill": "Git"
     },
     {
       "skill": "MySQL"
     },
     {
       "skill": "Bootstrap"
-    },
-    {
-      "skill": "SASS"
     },
     {
       "skill": "Linux"
@@ -80,17 +68,17 @@
       "career": "Software Development",
       "school": "Instituto Tecnológico Universitario - Universidad Nacional de Cuyo",
       "start": "2023",
-      "description": "University technician in progress."
+      "description": "In progress."
     },
     {
       "career": "Mechatronics Engineering",
       "school": "Facultad de Ingeniería - Universidad Nacional de Cuyo",
       "start": "2014",
-      "description": "Incomplete university level. 29 out of 48 curricular spaces approved, average 7.69."
+      "description": "In progress."
     }],
   "cursos":[{
       "title": "Frontend Web Development",
-      "school": "Mindhub",
+      "school": "Mindhub LA",
       "start": "01-2023",
       "description": "Bootcamp of 180 hours of training. HTML5 - CSS3 - Responsive design - JavaScript - Vue - Git & Github - Scrum"
     },
@@ -114,11 +102,11 @@
     }],
   "languages": [{
       "title": "English B2",
-      "date": "2023 (in progress)"
+      "date": "2023"
       
     },
     {
-      "title": "Japanese A1",
+      "title": "Japanese level 3",
       "school": "Japanese school of Asociación Nikkei Mendoza",
       "date": "2022"
     }],
