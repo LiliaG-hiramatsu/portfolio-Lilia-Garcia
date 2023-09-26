@@ -7,11 +7,11 @@
       "link": "https://amazingevents.netlify.app/"
     },
     {
-      "image": "../../assets/data/images/yogiho.png",
-      "name": "Yu-Gi-Oh! cards",
+      "image": "../../assets/data/images/mytinerary.PNG",
+      "name": "My Tinerary",
       "year": 2023,
-      "description": "Angular",
-      "link": "https://yu-gi-ho-cards.netlify.app"
+      "description": "React - Tailwind CSS - Node.js - Express.js - Mongo",
+      "link": "https://mytinerary-pi.vercel.app/"
     },
     {
       "image": "../../assets/data/images/commerce.png",
@@ -49,13 +49,25 @@
       "skill": "React"
     },
     {
+      "skill": "Node.js"
+    },
+    {
+      "skill": "Express.js"
+    },
+    {
       "skill": "Git"
     },
     {
       "skill": "MySQL"
     },
     {
+      "skill": "Mongo"
+    },
+    {
       "skill": "Bootstrap"
+    },
+    {
+      "skill": "Tailwind CSS"
     },
     {
       "skill": "Linux"
@@ -77,6 +89,12 @@
       "description": "In progress."
     }],
   "cursos":[{
+      "title": "MERN Stack Web Development",
+      "school": "Mindhub LA",
+      "start": "07-2023",
+      "description": "Bootcamp of 180 hours of training. React - Tailwind CSS - Node.js - Express.js - Mongo - Git & Github - Scrum"
+    },
+    {
       "title": "Frontend Web Development",
       "school": "Mindhub LA",
       "start": "01-2023",
@@ -106,7 +124,7 @@
       
     },
     {
-      "title": "Japanese level 3",
+      "title": "Japanese Level 3",
       "school": "Japanese school of Asociación Nikkei Mendoza",
       "date": "2022"
     }],

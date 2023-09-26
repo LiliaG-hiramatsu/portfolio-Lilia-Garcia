@@ -1,10 +1,10 @@
 <section class="secciones">
-    <h1 id="proyectos">PROJECTS</h1>
+    <h1 class="title" id="proyectos">PROJECTS</h1>
     <div class="header-bar"></div>
     <div class="gallery">
         <div class="card" *ngFor="let project of projectList">
             <img [src]="project.image" 
-                class="card-img-top"
+                class="image-project"
                 alt="web page image">
             <div class="card-body card-project">
                 <h5 class="card-title">{{ project.name }}</h5>

@@ -151,11 +151,27 @@
     height: 100%;
 }
 
+.title {
+    animation: slide 1s ease both;
+}
+
 .header-bar {
     width: 5rem;
     height: 4px;
     background-color: white;
     margin-bottom: 20px;
+    animation: slide 0.5s ease;
+}
+
+@keyframes slide {
+    0% {
+        opacity: 0;
+        transform: translateX(-400px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
 }
 
 .gallery {
@@ -164,6 +180,11 @@
     justify-content: center;
     gap: 20px;
     margin-bottom: 40px;
+}
+
+.image-project {
+    aspect-ratio: 800/400;
+    object-fit: cover;
 }
 
 .card-project {
