@@ -89,25 +89,25 @@
       "description": "In progress."
     }],
   "cursos":[{
-      "title": "MERN Stack Web Development",
+      "title": "Full Stack Development - MERN",
       "school": "Mindhub LA",
       "start": "07-2023",
       "description": "Bootcamp of 180 hours of training. React - Tailwind CSS - Node.js - Express.js - Mongo - Git & Github - Scrum"
     },
     {
-      "title": "Frontend Web Development",
+      "title": "Frontend Development",
       "school": "Mindhub LA",
       "start": "01-2023",
       "description": "Bootcamp of 180 hours of training. HTML5 - CSS3 - Responsive design - JavaScript - Vue - Git & Github - Scrum"
     },
     {
-      "title": "Full stack development with Python",
+      "title": "Full Stack Development - Python",
       "school": "Codo a codo - Agencia de aprendizaje a lo largo de la vida",
       "start": "08-2022",
       "description": "Course I learned HTML5 - CSS3 - responsive design - JavaScript - Python - Django - Git & Github"
     },
     {
-      "title": "Full stack development with Java",
+      "title": "Full Stack Development - Java",
       "school": "Argentina programa",
       "start": "10-2021",
       "description": "Course I learned HTML5 - CSS3 - responsive design - JavaScript - Java - Typescript - Angular - Spring - Springboot - Git & Github - mySQL - Scrum"
