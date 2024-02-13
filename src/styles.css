@@ -264,23 +264,37 @@
 }
 
 .contenido {
-    text-align: left;
+    display: flex;
+    flex-direction: column;
     line-height: 1.5;
 }
 
 .contenido h3 {
-    padding: 0 10px;
+    align-items: center;
     color: rgb(0, 0, 0);
     margin-bottom: 10px;
     font-size: 1em;
 }
 
+.contenido .redes {
+    display: flex;
+    flex-direction: column;
+}
+
+.contenido .redes li {
+    padding-left: 2rem;
+}
+
 .contenido ul {
-    padding-left: 10px;
+    padding-left: 0;
 }
 
 .contenido li {
     list-style: none;
+}
+
+.contenido .redes li a {
+    font-size: 1.1em;
 }
 
 .contenido li a {
