@@ -37,6 +37,9 @@
       "skill": "JavaScript"
     },
     {
+      "skill": "Java"
+    },
+    {
       "skill": "Python"
     },
     {
@@ -55,13 +58,31 @@
       "skill": "Express.js"
     },
     {
+      "skill": "Spring Boot"
+    },
+    {
+      "skill": "Docker"
+    },
+    {
+      "skill": "Apache"
+    },
+    {
+      "skill": "AWS"
+    },
+    {
       "skill": "Git"
     },
     {
       "skill": "MySQL"
     },
     {
+      "skill": "PostgreSQL"
+    },
+    {
       "skill": "Mongo"
+    },
+    {
+      "skill": "Neo4j"
     },
     {
       "skill": "Bootstrap"
@@ -119,23 +140,30 @@
       "description": "Linux operating system basics, installation, use of the terminal and commands."
     }],
   "languages": [{
-      "title": "English B2",
+      "title": "English B1",
       "date": "2023"
       
     },
     {
-      "title": "Japanese Level 3",
+      "title": "Japanese A1",
       "school": "Japanese school of Asociación Nikkei Mendoza",
       "date": "2022"
     }],
-    "experiencia":[{
-      "rubro": "Idus | Software Development",
-      "tareas": "Help Desk, Technical Support, Problem Solving, Development and Maintenance of Virtual Stores with Wordpress/Woocommerce.",
-      "periodo": "February 2024 - Present"
+    "experiencia":[
+      {
+        "rubro": "ASSA | DETI I | Facultad de Ingeniería",
+        "tareas": "Controles operativos, relevamientos, armado de cursos en el Aula Virtual, confección de planos con AutoCAD y desarrollo de sistemas",
+        "periodo": "November 2024 - Present"
       },
       {
-      "rubro": "Store",
-      "tareas": "Cash register, social networks, customer service, stock control, supplier reception.",
-      "periodo": "April 2022 - Octuber 2022"
-    }]
+        "rubro": "CICUNC | Secretaría de Transformación Digital | Dirección de Sistemas de Información y Procesos",
+        "tareas": "Desarrollo de aplicaciones web utilizando Django y PostgreSQL. Trabajo colaborativo en equipos multidisciplinarios usando control de versiones",
+        "periodo": "August 2025 - Present"
+      },
+      {
+        "rubro": "Idus Software | Software Development",
+        "tareas": "Help Desk, Technical Support, Problem Solving, Development and Maintenance of Virtual Stores with Wordpress/Woocommerce.",
+        "periodo": "February 2024 - April 2024"
+      }
+    ]
 }
